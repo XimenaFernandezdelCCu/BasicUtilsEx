@@ -30,6 +30,7 @@ public class Menu {
             case 3:
                 // STUDENT AVERAGE CALCULATOR
                 System.out.println("\t\tSTUDENT AVERAGE CALCULATOR");
+                StudentAvg.startStudent();
                 break;
             default:
                 // code block
@@ -75,7 +76,7 @@ public class Menu {
                 } else if (type == 2){
                     Encoder.code(subtype);
                 } else {
-                    System.out.println("construction...");
+                    StudentAvg.startStudent();
                 }
         }
     }
