@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Base64;
 import java.util.Scanner;
 
@@ -10,11 +9,11 @@ public class Encoder {
         switch (type){
             case 1:
                 System.out.println(Base64.getEncoder().encodeToString(scanner.nextLine().getBytes()));
-                Menu.next2(2,type);
+                Menu.secondaryMenu(2,type);
                 break;
             case 2:
                 System.out.println( new String(Base64.getDecoder().decode(scanner.nextLine())) );
-                Menu.next2(2,type);
+                Menu.secondaryMenu(2,type);
                 break;
             default:
                 Menu.displayMenu(0);

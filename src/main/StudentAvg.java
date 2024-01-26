@@ -47,7 +47,7 @@ public class StudentAvg {
         }
         System.out.println("--------------------------------------------------\n");
         System.out.printf("Final Average: %f\t\t\tStatus: %s",average, level );
-        Menu.next2(3,0);
+        Menu.secondaryMenu(3,0);
 
     }
 

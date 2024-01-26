@@ -66,7 +66,7 @@ public class Menu {
         Menu.displayMenu(type);
     }
 
-    public static void next2(int type, int subtype){
+    public static void secondaryMenu(int type, int subtype){
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nWhat would you like to do next?:");
         switch (type){
@@ -104,10 +104,10 @@ public class Menu {
                     }
                     break;
                 default:
-                    next2(type, subtype);
+                    secondaryMenu(type, subtype);
             }
         } catch (NumberFormatException e) {
-            next2(type, subtype);
+            secondaryMenu(type, subtype);
 
         }
 

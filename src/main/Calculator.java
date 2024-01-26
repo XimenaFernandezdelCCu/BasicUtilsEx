@@ -26,7 +26,7 @@ public class Calculator {
                    runCalculator(4);
                } else {
                    System.out.printf("\n\t%G %c %G = %G\n", aVal, chars[type2], bVal, calculate(aVal, bVal, op[type2]));
-                   Menu.next2(1,type);
+                   Menu.secondaryMenu(1,type);
                }
 
            } catch(NumberFormatException e) {
