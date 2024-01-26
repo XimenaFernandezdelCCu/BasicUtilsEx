@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 
 public class StudentAvg {
+
     static void startStudent(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the student name:");
